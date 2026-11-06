@@ -1,0 +1,23 @@
+# Node dependencies
+node_modules/
+
+# Secrets & Environment (NEVER COMMIT YOUR REAL .env)
+.env
+.env.*
+!.env.example
+
+# Logs & Runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Temp data & Local test JSON files (if any contain sensitive data)
+tmp/
+temp/
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
